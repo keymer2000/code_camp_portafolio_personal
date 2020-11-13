@@ -1,0 +1,155 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(13, 11, 129);
+    ;
+    z-index: 10;
+}
+
+.nav-list{
+    display: flex;
+    margin-right: 2rem;
+    margin-bottom: 0;    
+    list-style: none;
+}
+
+.nav-list > li{
+    display: list-item;
+}
+
+.nav-list > li > a{
+    display: block;
+    font-size: 1.8rem;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+	background: white;
+	color: #2250A6;
+	transition: 0.3s;
+
+}
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: teal;
+}
+
+
+.projects-section {
+    text-align: center;
+    padding: 5rem 2rem;
+    background-color:rgb(96, 183, 223);
+}
+
+.projects-section-header {
+    max-width: 540px;
+    margin: 0 auto 4rem auto;
+    border-bottom: 0.2rem solid;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.projects-grid > a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.project {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+}
+
+
+.project-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.project-title {
+    width: 100%;
+    font-size: 1rem;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    background-color:black;
+    
+}
+
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 2rem;
+    background-color: teal;
+}
+
+.contact-section-header > h1 {
+    font-size: 3rem;
+}
+
+.contact-links {
+    display: flex;
+    width: 100%;
+    max-width: 980px;
+    justify-content: center;
+    margin: 1rem auto 0 auto;
+    
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    text-decoration: none;
+    
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.text-ico{
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+
+#footer{
+    padding-top: 2rem;
+    height: 5rem;
+    text-align: center;
+    font-weight: 600;
+    background-color:  rgb(13, 11, 129);
+    color: white;
+
+}
